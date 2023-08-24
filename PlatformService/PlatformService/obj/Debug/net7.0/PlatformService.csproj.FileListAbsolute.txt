@@ -77,3 +77,4 @@ C:\Users\Tobi\Desktop\microservices\microservices\PlatformService\PlatformServic
 C:\Users\Tobi\Desktop\microservices\microservices\PlatformService\PlatformService\obj\Debug\net7.0\PlatformService.pdb
 C:\Users\Tobi\Desktop\microservices\microservices\PlatformService\PlatformService\obj\Debug\net7.0\PlatformService.genruntimeconfig.cache
 C:\Users\Tobi\Desktop\microservices\microservices\PlatformService\PlatformService\obj\Debug\net7.0\ref\PlatformService.dll
+C:\Users\Tobi\Desktop\microservices\microservices\PlatformService\PlatformService\bin\Debug\net7.0\appsettings.Production.json
