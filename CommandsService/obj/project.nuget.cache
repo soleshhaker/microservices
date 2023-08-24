@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "X4MSXEQi1l+9Y/fOe3YU6O3sZI3seHixISN8SH/gh6WMMlnX8Xj4cchosBeqAuRXaBi8HEkaP07fbYiZOoIhxA==",
+  "dgSpecHash": "S5pUpMPEr64JvLyC/g9M0hmeM7Vi7IKoIdSFgm1mFHwKgM5YLAJPZ2uoaGj6TQ+TUymtTU+WERjfMyO71azc+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Tobi\\Desktop\\microservices\\microservices\\CommandsService\\CommandsService.csproj",
   "expectedPackageFiles": [
@@ -27,6 +27,7 @@
     "C:\\Users\\Tobi\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\Tobi\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\Tobi\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\Tobi\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512",
     "C:\\Users\\Tobi\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\Tobi\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\Tobi\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
