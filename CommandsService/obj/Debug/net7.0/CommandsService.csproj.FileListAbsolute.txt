@@ -42,3 +42,5 @@ C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\obj\Debug\net7
 C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\obj\Debug\net7.0\CommandsService.pdb
 C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\obj\Debug\net7.0\CommandsService.genruntimeconfig.cache
 C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\obj\Debug\net7.0\ref\CommandsService.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\appsettings.Production.json
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\RabbitMQ.Client.dll
