@@ -7,6 +7,6 @@
     "\\PlatformService",
     "\\PlatformService\\PlatformService"
   ],
-  "SelectedNode": "\\K8S\\mssql-plat-depl.yaml",
+  "SelectedNode": "\\PlatformService\\PlatformService\\appsettings.Production.json",
   "PreviewInSolutionExplorer": false
 }
