@@ -48,3 +48,10 @@ C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7
 C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Grpc.Core.Api.dll
 C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Grpc.Net.Client.dll
 C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Grpc.Net.Common.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\MassTransit.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\MassTransit.Abstractions.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\MassTransit.RabbitMqTransport.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Tobi\Desktop\microservices\microservices\CommandsService\bin\Debug\net7.0\Microsoft.Extensions.Options.dll

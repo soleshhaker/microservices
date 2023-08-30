@@ -1,10 +1,13 @@
 ﻿using AutoMapper;
+using MassTransit;
+using MassTransit.Transports;
 using Microsoft.AspNetCore.Mvc;
 using PlatformService.AsyncDataServices;
 using PlatformService.Data;
 using PlatformService.Dtos;
 using PlatformService.Models;
 using PlatformService.SyncDataServices.Http;
+using SharedModels;
 
 namespace PlatformService.Controllers
 {
@@ -16,13 +19,15 @@ namespace PlatformService.Controllers
         private readonly IMapper _mapper;
         private readonly ICommandDataClient _commandDataClient;
         private readonly IMessageBusClient _messageBusClient;
+        private readonly IPublishEndpoint _publishEndpoint;
 
-        public PlatformsController(IPlatformRepo repostiory, IMapper mapper, ICommandDataClient commandDataClient, IMessageBusClient messageBusClient) 
+        public PlatformsController(IPlatformRepo repostiory, IMapper mapper, ICommandDataClient commandDataClient, IMessageBusClient messageBusClient, IPublishEndpoint publishEndpoint) 
         {
             _repository = repostiory;
             _mapper = mapper;
             _commandDataClient = commandDataClient;
             _messageBusClient = messageBusClient;
+            _publishEndpoint = publishEndpoint;
         }
 
         [HttpGet]
@@ -70,7 +75,13 @@ namespace PlatformService.Controllers
             {
                 var platformPublishedDto = _mapper.Map<PlatformPublishedDto>(platformReadDto);
                 platformPublishedDto.Event = "Platform_Published";
-                _messageBusClient.PublishNewPlatform(platformPublishedDto);
+
+                await _publishEndpoint.Publish<PlatformCreated>(new
+                {
+                    platformPublishedDto.Id,
+                    platformPublishedDto.Name,
+                    platformPublishedDto.Event
+                });
             }
             catch (Exception ex)
             {
